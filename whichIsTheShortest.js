@@ -35,7 +35,7 @@ for(let i = 0; i < arrX.length; i ++) {
     }
 }
 
-//ascending array by obj's value
+//ascending array by obj's distance
 result.sort(function(x, y) { return (x.distance > y.distance ? 1 : y.distance > x.distance ? -1 : 0)})
 
 console.log('The shortest distance between all the points is ' + result[0].points + ' : ' +  result[0].distance);
